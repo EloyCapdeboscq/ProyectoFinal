@@ -746,11 +746,13 @@ footer ul {
     margin: 5px;
     margin-top: 12px;
   }
-  .productos{
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between
-  }
+}
+
+@media screen and (max-width:1280px){
+    .productos{
+      display: flex;
+      align-items: center;
+    }
 }
 
 
@@ -819,7 +821,7 @@ footer ul {
 
 
 /*tablet nosotros*/
-@media screen and (max-width:1510px){
+@media screen and (max-width:1700px){
   .bodyNosotros{
     grid-template-rows: 200px auto auto auto;
     }
@@ -875,7 +877,7 @@ footer ul {
   }
   .nosotros-historia{
     display: flex;
-    }
+  }
     h3{
     margin: 5px;
     display: flex;
@@ -885,8 +887,10 @@ footer ul {
 
 .nuestros-img{
     margin: 10px;
+    margin-top: 50px;
     width: 400px;
     height: 400px;
+    display: flex;
 }
 
 .video-proyecto{
@@ -909,7 +913,7 @@ footer ul {
 
 
 /*celular nosotros*/
-@media screen and (max-width:900px){
+@media screen and (max-width:1144px){
   .bodyNosotros{
     grid-template-rows: 200px auto auto auto;
     }
@@ -929,6 +933,7 @@ footer ul {
   .nosotros-historia{
     display: flex;
     flex-direction: column;
+    align-items: center;
    }
     h3{
     margin: 5px;
@@ -939,13 +944,12 @@ footer ul {
 
 .nuestros-img{
     margin: 10px;
-    width: 300px;
-    height: 300px;
 }
 
 .video-proyecto{
     margin: 10px;
-    width: 300px;
+    margin-top: 100px;
+    width: 400px;
     
 }
 .nosotros-proyectos{
@@ -955,13 +959,13 @@ footer ul {
 .nuestros-ideas{
     font-family: Lato;
     display: flex;
-    align-items: center;
+    margin: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .img-proyecto{
     margin: 10px;
-    width: 300px;
-    height: 300px;
 }
 }
 
@@ -970,23 +974,10 @@ footer ul {
   .bodyNosotros{
     grid-template-rows: 300px auto auto auto;
     }
-  nav{
-    height: auto;
   }
-  nav ul { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    z-index: 1;
-  }
-  
-  nav ul li{
-    margin: 5px;
-  }
-}
 
 
-/*tablet y celulares productos*/
+/*tablet productos*/
 @media screen and (max-width:1512px){
   .bodyProductos{
     grid-template-rows: 200px auto auto auto;
@@ -1042,14 +1033,16 @@ footer ul {
   }
 }
 
+/* celular productos*/
 @media screen and (max-width:1280px){
   .productos{
     display: flex;
     flex-direction: column;
-    justify-content:space-between
+    align-content:center;
   }
 }
 
+/* celular productos*/
 @media screen and (max-width:580px){
   .bodyProductos{
     grid-template-rows: 300px auto auto auto;
