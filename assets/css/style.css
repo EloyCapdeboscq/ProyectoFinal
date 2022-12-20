@@ -974,7 +974,13 @@ footer ul {
   .bodyNosotros{
     grid-template-rows: 300px auto auto auto;
     }
+  .nuestros-ideas{
+    width: 80%;
   }
+  h3{
+    width: 80%;
+  }
+}
 
 
 /*tablet productos*/
