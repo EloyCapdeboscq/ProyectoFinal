@@ -1,0 +1,35 @@
+.header-productos{
+    background-image: url(../img/header-productos.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    font-family: Lato solid;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: white;
+}
+
+.bodyProductos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 80px auto auto auto 60px;
+    grid-template-areas: "nav    nav    nav    nav"
+                         "header header header header"
+                         "main   main   main   main"
+                         "aside  aside  aside  aside"
+                         "footer footer footer footer";
+}
+
+.headerProductos{
+    grid-area: header;
+}
+
+.mainProductos{
+    grid-area: main;
+}
+
+.asideProductos{
+    grid-area: aside;
+}

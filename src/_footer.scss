@@ -1,0 +1,51 @@
+footer{
+    grid-area: footer;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-family: Lato;
+    color:rgb(92, 217, 248, 0.947);
+    padding: 5px;
+    
+    ul{
+    list-style-type: none;
+    display: flex;
+    font-size: 14px;
+    }
+}
+
+.footer-dias{
+    display: block;
+}
+
+.footer-logo{
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+.footer-telefono{
+    margin-right: 10px;
+}
+
+.footer-redes-ig{
+    margin-right: 10px;
+}
+
+.footer-redes-fb{
+    margin-right: 10px;
+}
+
+.footer-redes-tw{
+    margin-right: 40px;
+}
+
+.footer-numero-telefono{
+    font-size: 9.5px;
+    margin-top: 8px;
+}
+
+.footer-titulo-logo{
+    margin-top: 8px;
+    font-size: 9.5px;
+}

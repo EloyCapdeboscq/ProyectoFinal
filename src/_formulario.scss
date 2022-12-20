@@ -1,0 +1,33 @@
+.formulario{
+    font-family: Lato;
+    font-size: 16px;
+    background-image: url(../img/fondo-form.jpg);
+    width: 920px;
+    height: 660px;
+    margin: 57px;
+    color: rgb(92, 217, 248, 0.947);
+    display: grid;
+    flex-direction: column;
+    label{
+    margin-left: 5px;
+    }
+    
+    label input{
+    margin: 5px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(92, 217, 248, 0.947);
+    }
+}
+
+.btn{
+    border: none;
+    width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color:  rgb(92, 217, 248, 0.947);
+    color: black;
+}

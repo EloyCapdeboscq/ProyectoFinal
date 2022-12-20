@@ -1,0 +1,59 @@
+.nosotros-historia{
+    display: flex;
+
+    h3{
+    margin: 150px;
+    display: flex;
+    align-items: center;
+    font-family: Lato;
+    }
+}
+
+.nuestros-img{
+    margin: 100px;
+    width: 800px;
+}
+
+.nosotros-proyectos{
+    display: flex;
+    align-items: center;
+}
+
+.video-proyecto{
+    margin: 100px;
+    
+}
+
+.nuestros-ideas{
+    font-family: Lato;
+    display: flex;
+    align-items: center;
+}
+
+.img-proyecto{
+    margin: 100px;
+    width: 800px;
+}
+
+.bodyNosotros{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 80px auto auto auto 60px;
+    grid-template-areas: "nav    nav    nav"
+                         "header header header"
+                         "main   main   main"
+                         "aside  aside  aside"
+                         "footer footer footer";
+}
+
+.headerNosotros{
+    grid-area: header;
+}
+
+.mainNosotros{
+    grid-area: main;
+}
+
+.asideNosotros{
+    grid-area: aside;
+}
