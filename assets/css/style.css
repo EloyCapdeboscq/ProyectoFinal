@@ -389,6 +389,16 @@ footer ul {
 }
 
 /*tablet contactos*/ 
+@media screen and (max-width:1515px){
+  .bodyContactos{
+    grid-template-rows: 200px auto auto auto;
+    }
+    nav{
+      height: auto;
+    }
+}
+
+
 @media screen and (max-width:850px){
   nav{
     display: flex;
@@ -406,31 +416,68 @@ footer ul {
 }
 
 /*celular contactos*/
-@media screen and (max-width:500px){
+@media screen and (max-width:582px){
+  .bodyContactos{
+    grid-template-rows: 300px auto auto auto;
+    }
   nav{
+    height: auto;
+  }
+
+  nav ul{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     z-index: 1;
-     }
-    ul{
-      display: flex;
-      flex-direction: column ;
-      }
+  }
   
-      li a {
-      text-decoration: none;
-      color: rgba(92, 217, 248, 0.947);
-      font-size: 18px;
-      padding: 10px 20px;
-    }
-      
+  nav ul li{
+    margin: 5px;
+  }
+  
   footer{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items:center;
     font-family: Lato;
     color:rgb(92, 217, 248, 0.947);
+  }
+
+  .footer-dias{
+    margin: 5px;
+  }
+
+  .footer-redes-ig{
+    margin: 2px;
+  }
+
+  .footer-redes-fb{
+    margin: 2px;
+    margin-top: 15px;
+  }
+
+  .footer-redes-tw{
+    margin: 2px;
+  }
+
+  .footer-contacto{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+  }
+
+  .footer-numero-telefono{
+    margin-top: 12px;
+  }
+
+  .footer-img{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+  }
+
+  .footer-titulo-logo{
+    margin-top: 12px;
   }
 }
 
@@ -438,6 +485,58 @@ footer ul {
 
 /*ubicacion*/
 @media screen and (max-width:1515px){
+  .bodyUbicacion{
+    grid-template-rows: 200px auto auto auto;
+    }
+  nav{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+  }
+  
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-family: Lato;
+    color:rgb(92, 217, 248, 0.947);
+  }
+
+  .footer-dias{
+    margin: 5px;
+  }
+
+  .footer-logo{
+    margin: 5px;
+  }
+
+  .footer-telefono{
+    margin: 5px;
+  }
+
+  .footer-redes-ig{
+    margin: 5px;
+  }
+
+  .footer-redes-fb{
+    margin: 5px;
+  }
+
+  .footer-redes-tw{
+    margin: 5px;
+  }
+
+  .footer-numero-telefono{
+    margin: 5px;
+    margin-top: 12px;
+  }
+
+  .footer-titulo-logo{
+    margin: 5px;
+    margin-top: 12px;
+  }
   .info-ubi{
     margin: 50px;
     width: auto;
@@ -513,32 +612,67 @@ footer ul {
 
 
 /*celular ubicacion*/
-@media screen and (max-width:500px){
+@media screen and (max-width:580px){
+  .bodyUbicacion{
+    grid-template-rows: 300px auto auto auto;
+    }
   nav{
+    height: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     z-index: 1;
-     }
-    ul{
-      display: flex;
-      flex-direction: column ;
-      }
+  }
   
-      li a {
-      text-decoration: none;
-      color: rgba(92, 217, 248, 0.947);
-      font-size: 18px;
-      padding: 10px 20px;
-    }
-      
+  nav ul li{
+    margin: 5px;
+  }
+  
   footer{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items:center;
     font-family: Lato;
     color:rgb(92, 217, 248, 0.947);
   }
+
+  .footer-dias{
+    margin: 5px;
+  }
+
+  .footer-redes-ig{
+    margin: 2px;
+  }
+
+  .footer-redes-fb{
+    margin: 2px;
+    margin-top: 15px;
+  }
+
+  .footer-redes-tw{
+    margin: 2px;
+  }
+
+  .footer-contacto{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+  }
+
+  .footer-numero-telefono{
+    margin-top: 12px;
+  }
+
+  .footer-img{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+  }
+
+  .footer-titulo-logo{
+    margin-top: 12px;
+  }
+
   .info-ubi{
     margin: 5px;
     width: auto;
@@ -558,20 +692,59 @@ footer ul {
 }
 
 
-/*tablet y celulares inicio*/
-@media screen and (max-width:1280px){
+/*tablet inicio*/
+@media screen and (max-width:1515px){
+  .BodyInicio{
+    grid-template-rows: 200px auto auto auto;
+    }
   nav{
+    height: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     z-index: 1;
   }
+  
   footer{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items:center;
     font-family: Lato;
     color:rgb(92, 217, 248, 0.947);
+  }
+
+  .footer-dias{
+    margin: 5px;
+  }
+
+  .footer-logo{
+    margin: 5px;
+  }
+
+  .footer-telefono{
+    margin: 5px;
+  }
+
+  .footer-redes-ig{
+    margin: 5px;
+  }
+
+  .footer-redes-fb{
+    margin: 5px;
+  }
+
+  .footer-redes-tw{
+    margin: 5px;
+  }
+
+  .footer-numero-telefono{
+    margin: 5px;
+    margin-top: 12px;
+  }
+
+  .footer-titulo-logo{
+    margin: 5px;
+    margin-top: 12px;
   }
   .productos{
     display: flex;
@@ -581,8 +754,125 @@ footer ul {
 }
 
 
+/* celular inicio*/
+@media screen and (max-width:582px){
+  .BodyInicio{
+    grid-template-rows: 300px auto auto auto;
+    }
+  nav{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+  }
+  
+  nav ul li{
+    margin: 5px;
+  }
+  
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-family: Lato;
+    color:rgb(92, 217, 248, 0.947);
+  }
+
+  .footer-dias{
+    margin: 5px;
+  }
+
+  .footer-redes-ig{
+    margin: 2px;
+  }
+
+  .footer-redes-fb{
+    margin: 2px;
+    margin-top: 15px;
+  }
+
+  .footer-redes-tw{
+    margin: 2px;
+  }
+
+  .footer-contacto{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+  }
+
+  .footer-numero-telefono{
+    margin-top: 12px;
+  }
+
+  .footer-img{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+  }
+
+  .footer-titulo-logo{
+    margin-top: 12px;
+  }
+}
+
+
 /*tablet nosotros*/
 @media screen and (max-width:1510px){
+  .bodyNosotros{
+    grid-template-rows: 200px auto auto auto;
+    }
+
+  nav{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+  }
+  
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-family: Lato;
+    color:rgb(92, 217, 248, 0.947);
+  }
+
+  .footer-dias{
+    margin: 5px;
+  }
+
+  .footer-logo{
+    margin: 5px;
+  }
+
+  .footer-telefono{
+    margin: 5px;
+  }
+
+  .footer-redes-ig{
+    margin: 5px;
+  }
+
+  .footer-redes-fb{
+    margin: 5px;
+  }
+
+  .footer-redes-tw{
+    margin: 5px;
+  }
+
+  .footer-numero-telefono{
+    margin: 5px;
+    margin-top: 12px;
+  }
+
+  .footer-titulo-logo{
+    margin: 5px;
+    margin-top: 12px;
+  }
   .nosotros-historia{
     display: flex;
     }
@@ -620,6 +910,22 @@ footer ul {
 
 /*celular nosotros*/
 @media screen and (max-width:900px){
+  .bodyNosotros{
+    grid-template-rows: 200px auto auto auto;
+    }
+
+  nav{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+  }
+  
+  nav ul li{
+    margin: 5px;
+  }
+  
   .nosotros-historia{
     display: flex;
     flex-direction: column;
@@ -659,25 +965,106 @@ footer ul {
 }
 }
 
-
-/*tablet y celulares productos*/
-@media screen and (max-width:1280px){
+/*celular nosotros*/
+@media screen and (max-width:572px){
+  .bodyNosotros{
+    grid-template-rows: 300px auto auto auto;
+    }
   nav{
+    height: auto;
+  }
+  nav ul { 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     z-index: 1;
   }
+  
+  nav ul li{
+    margin: 5px;
+  }
+}
+
+
+/*tablet y celulares productos*/
+@media screen and (max-width:1512px){
+  .bodyProductos{
+    grid-template-rows: 200px auto auto auto;
+    }
+  nav{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+  }
+  
   footer{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items:center;
     font-family: Lato;
     color:rgb(92, 217, 248, 0.947);
   }
+
+  .footer-dias{
+    margin: 5px;
+  }
+
+  .footer-logo{
+    margin: 5px;
+  }
+
+  .footer-telefono{
+    margin: 5px;
+  }
+
+  .footer-redes-ig{
+    margin: 5px;
+  }
+
+  .footer-redes-fb{
+    margin: 5px;
+  }
+
+  .footer-redes-tw{
+    margin: 5px;
+  }
+
+  .footer-numero-telefono{
+    margin: 5px;
+    margin-top: 12px;
+  }
+
+  .footer-titulo-logo{
+    margin: 5px;
+    margin-top: 12px;
+  }
+}
+
+@media screen and (max-width:1280px){
   .productos{
     display: flex;
     flex-direction: column;
     justify-content:space-between
+  }
+}
+
+@media screen and (max-width:580px){
+  .bodyProductos{
+    grid-template-rows: 300px auto auto auto;
+    }
+  nav{
+    height: auto;
+  }
+  nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+  }
+  
+  nav ul li{
+    margin: 5px;
   }
 }
