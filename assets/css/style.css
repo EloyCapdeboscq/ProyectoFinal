@@ -14,7 +14,7 @@ body {
 .BodyInicio {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 80px auto auto auto;
+  grid-template-rows: 80px auto auto 60px;
   grid-template-areas: "nav    nav    nav    nav" "header header header header" "main   main   main   main" "footer footer footer footer";
 }
 
@@ -193,7 +193,7 @@ footer ul {
 .bodyUbicacion {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 80px auto auto auto;
+  grid-template-rows: 80px auto auto 60px;
   grid-template-areas: "nav    nav    nav    nav" "header header header header" "main   main   main   main" "footer footer footer footer";
 }
 
@@ -310,7 +310,7 @@ footer ul {
 .bodyNosotros {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 80px auto auto auto auto;
+  grid-template-rows: 80px auto auto auto 60px;
   grid-template-areas: "nav    nav    nav" "header header header" "main   main   main" "aside  aside  aside" "footer footer footer";
 }
 
@@ -342,7 +342,7 @@ footer ul {
 .bodyContactos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 80px auto auto auto;
+  grid-template-rows: 80px auto auto 60px;
   grid-template-areas: "nav    nav    nav    nav" "header header header header" "main   main   main   main" "footer footer footer footer";
 }
 
@@ -372,7 +372,7 @@ footer ul {
 .bodyProductos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 80px auto auto auto auto;
+  grid-template-rows: 80px auto auto auto 60px;
   grid-template-areas: "nav    nav    nav    nav" "header header header header" "main   main   main   main" "aside  aside  aside  aside" "footer footer footer footer";
 }
 
@@ -484,10 +484,22 @@ footer ul {
 
 
 /*ubicacion*/
-@media screen and (max-width:1515px){
+@media screen and (max-width:1700px){
   .bodyUbicacion{
     grid-template-rows: 200px auto auto auto;
     }
+  .texto-ubi{
+    height: 200px;
+  }
+  .info-ubi{
+    margin: 20px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width:1515px){
   nav{
     height: auto;
     display: flex;
@@ -543,16 +555,16 @@ footer ul {
     display: flex;
     flex-direction: row;
     margin-left: 100px;
-}
+  }
 
-.mapa-ubi{
+  .mapa-ubi{
     margin-left: 200px;
     width: 1000px;
-}
+  }
 
-.texto-ubi{
+  .texto-ubi{
     margin-top: 100px;
-}
+  }
 }
 
 
@@ -596,7 +608,7 @@ footer ul {
     width: auto;
     display: flex;
     flex-direction: column;
-    margin-left: 1px;
+    align-items: center;
   }
 
 .mapa-ubi{
@@ -606,6 +618,7 @@ footer ul {
 
 .texto-ubi{
     margin-top: 10px;
+    margin: 50px;
   }
 }
   
