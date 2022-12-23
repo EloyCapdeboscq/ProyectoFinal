@@ -162,7 +162,7 @@ footer ul {
 .titulo-ubi {
   background-image: url(../img/header-ubi.jpg);
   width: 100%;
-  height: 600px;
+  height: 460px;
   background-size: cover;
   font-family: Lato solid;
   font-size: 50px;
@@ -389,7 +389,7 @@ footer ul {
 }
 
 /*tablet contactos*/ 
-@media screen and (max-width:1515px){
+@media screen and (max-width:1700px){
   .bodyContactos{
     grid-template-rows: 200px auto auto auto;
     }
@@ -434,6 +434,14 @@ footer ul {
   nav ul li{
     margin: 5px;
   }
+
+  nav ul li a{
+    font-size: 20px;
+  }
+
+  .header-contactos{
+    height: 200px;
+    }
   
   footer{
     display: flex;
@@ -445,6 +453,7 @@ footer ul {
 
   .footer-dias{
     margin: 5px;
+    font-size: 16px;
   }
 
   .footer-redes-ig{
@@ -641,6 +650,10 @@ footer ul {
     margin: 5px;
   }
   
+  nav ul li a{
+    font-size: 20px;
+  }
+
   footer{
     display: flex;
     flex-direction: column;
@@ -649,8 +662,15 @@ footer ul {
     color:rgb(92, 217, 248, 0.947);
   }
 
+  .titulo-ubi{
+    height: 200px;
+    align-items: end;
+    padding-top: 0PX;
+}
+
   .footer-dias{
     margin: 5px;
+    font-size: 16px;
   }
 
   .footer-redes-ig{
@@ -706,10 +726,14 @@ footer ul {
 
 
 /*tablet inicio*/
-@media screen and (max-width:1515px){
+
+@media screen and (max-width:1700px){
   .BodyInicio{
     grid-template-rows: 200px auto auto auto;
     }
+  }
+
+@media screen and (max-width:1515px){
   nav{
     height: auto;
     display: flex;
@@ -785,6 +809,10 @@ footer ul {
   nav ul li{
     margin: 5px;
   }
+
+  nav ul li a{
+    font-size: 20px;
+  }
   
   footer{
     display: flex;
@@ -794,8 +822,13 @@ footer ul {
     color:rgb(92, 217, 248, 0.947);
   }
 
+  .titulo-inicio{
+    height: 200px;
+  }
+
   .footer-dias{
     margin: 5px;
+    font-size: 16px;
   }
 
   .footer-redes-ig{
@@ -987,20 +1020,34 @@ footer ul {
   .bodyNosotros{
     grid-template-rows: 300px auto auto auto;
     }
+
+  nav ul li a{
+      font-size: 20px;
+    }
+
   .nuestros-ideas{
     width: 80%;
   }
   h3{
     width: 80%;
   }
+  .footer-dias{
+    margin: 5px;
+    font-size: 16px;
+  }
+
 }
 
 
 /*tablet productos*/
+
+@media screen and (max-width:1700px){
+.bodyProductos{
+  grid-template-rows: 200px auto auto auto;
+  }
+}
+
 @media screen and (max-width:1512px){
-  .bodyProductos{
-    grid-template-rows: 200px auto auto auto;
-    }
   nav{
     height: auto;
     display: flex;
@@ -1079,4 +1126,20 @@ footer ul {
   nav ul li{
     margin: 5px;
   }
+
+  nav ul li a{
+    font-size: 20px;
+  }
+
+  .header-productos{
+    height: 200px;
+    align-items: end;
+  }
+
+  .footer-dias{
+    margin: 5px;
+    font-size: 16px;
+  }
+
+
 }
